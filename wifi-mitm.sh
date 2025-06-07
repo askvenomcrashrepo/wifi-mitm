@@ -11,7 +11,7 @@ FAKE_SSID="FreeWiFi"
 FAKE_NET="192.168.10.0/24"
 GATEWAY_IP="192.168.10.1"
 
-echo "[*] Setting up fake AP A.S.K.VENOM..."
+echo "[*] Setting up fake AP ||| A.S.K.VENOM..."
 
 cat > /tmp/hostapd.conf <<EOF
 interface=$WIFI_IF
